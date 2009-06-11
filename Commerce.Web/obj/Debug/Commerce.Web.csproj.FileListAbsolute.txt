@@ -1,0 +1,15 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Abstractions.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Routing.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\Commerce.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\Commerce.Web.pdb

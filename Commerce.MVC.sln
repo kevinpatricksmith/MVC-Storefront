@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.MVC.Web", "Commerce.Web\Commerce.MVC.Web.csproj", "{B99EC98A-1F09-4245-B00D-5AF985190AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Pipelines", "Commerce.MVC.Pipelines\Commerce.Pipelines.csproj", "{31886C95-D019-49C6-8B0E-B1C49055F456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Services", "Commerce.MVC.Services\Commerce.Services.csproj", "{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Data", "Commerce.MVC.Data\Commerce.Data.csproj", "{E084BFA0-121F-404B-8C8A-BAB98BB6A119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Tests", "Commerce.MVC.Tests\Commerce.Tests.csproj", "{8939B113-B4EA-4763-A3BD-23FFB6E4E021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spike", "Spike\Spike.csproj", "{13DD61CE-796B-4027-B47D-D9F79F558DEC}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Commerce.MVC.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B99EC98A-1F09-4245-B00D-5AF985190AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99EC98A-1F09-4245-B00D-5AF985190AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99EC98A-1F09-4245-B00D-5AF985190AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99EC98A-1F09-4245-B00D-5AF985190AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E084BFA0-121F-404B-8C8A-BAB98BB6A119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E084BFA0-121F-404B-8C8A-BAB98BB6A119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E084BFA0-121F-404B-8C8A-BAB98BB6A119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E084BFA0-121F-404B-8C8A-BAB98BB6A119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8939B113-B4EA-4763-A3BD-23FFB6E4E021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8939B113-B4EA-4763-A3BD-23FFB6E4E021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8939B113-B4EA-4763-A3BD-23FFB6E4E021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8939B113-B4EA-4763-A3BD-23FFB6E4E021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DD61CE-796B-4027-B47D-D9F79F558DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DD61CE-796B-4027-B47D-D9F79F558DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DD61CE-796B-4027-B47D-D9F79F558DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DD61CE-796B-4027-B47D-D9F79F558DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

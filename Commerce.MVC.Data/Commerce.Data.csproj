@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E084BFA0-121F-404B-8C8A-BAB98BB6A119}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Commerce.Data</RootNamespace>
+    <AssemblyName>Commerce.Data</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap, Version=2.5.0.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\Interfaces\ICatalogRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Interfaces\IIncentiveRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IInventoryRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IMailerRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IOrderRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IPersonalizationRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\IShippingRepository.cs" />
+    <Compile Include="DataAccess\Interfaces\ITaxRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\LinqRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlIncentiveRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlInventoryRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlMailerRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlOrderRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlPersonalizationRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\LinqCatalog.cs">
+      <DependentUpon>LinqCatalog.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\SqlServer\LinqCatalog.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LinqCatalog.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\SqlServer\SqlCatalogRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlShippingRepository.cs" />
+    <Compile Include="DataAccess\SqlServer\SqlTaxRepository.cs" />
+    <Compile Include="Filters\AddressFilters.cs" />
+    <Compile Include="Filters\CatalogFilters.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Filters\InventoryFilters.cs" />
+    <Compile Include="Filters\OrderFilters.cs" />
+    <Compile Include="Model\Coupons\AmountOffItemCoupon.cs" />
+    <Compile Include="Model\Coupons\AmountOffOrderCoupon.cs" />
+    <Compile Include="Model\Coupons\IIncentive.cs" />
+    <Compile Include="Model\Coupons\Incentive.cs" />
+    <Compile Include="Model\Coupons\ICoupon.cs" />
+    <Compile Include="Model\Coupons\PercentOffItemCoupon.cs" />
+    <Compile Include="Model\Coupons\PercentOffOrderCoupon.cs" />
+    <Compile Include="Model\CreditCard.cs" />
+    <Compile Include="Model\PaymentMethod.cs" />
+    <Compile Include="Model\InventoryRecord.cs" />
+    <Compile Include="Model\Mailer.cs" />
+    <Compile Include="Model\ProductDescriptor.cs" />
+    <Compile Include="Model\TaxRate.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Model\ShippingMethod.cs" />
+    <Compile Include="Model\UserEvent.cs" />
+    <Compile Include="Model\UserProfile.cs" />
+    <Compile Include="Utility\CardSpaceTokenProcessor.cs" />
+    <Compile Include="Utility\LazyList.cs" />
+    <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Image.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\OrderItem.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductCategoryMap.cs" />
+    <Compile Include="Model\ProductReview.cs" />
+    <Compile Include="Model\Role.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DBServiceRegistry.cs" />
+    <Compile Include="Utility\PagedList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagram\Catalog.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataAccess\SqlServer\LinqCatalog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LinqCatalog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataAccess\SqlServer\LinqCatalog.dbml.layout">
+      <DependentUpon>LinqCatalog.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagram\Order.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.Services.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\Commerce.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\Commerce.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\NLog.dll

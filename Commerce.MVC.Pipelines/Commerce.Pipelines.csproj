@@ -1,0 +1,203 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31886C95-D019-49C6-8B0E-B1C49055F456}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Commerce.Pipelines</RootNamespace>
+    <AssemblyName>Commerce.Pipelines</AssemblyName>
+    <ProjectTypeGuids>{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.WorkflowServices">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\AcceptPayPalWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\AcceptPayPalWorkflow.Designer.cs">
+      <DependentUpon>AcceptPayPalWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\AdjustInventoryActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\AdjustInventoryActivity.Designer.cs">
+      <DependentUpon>AdjustInventoryActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\AuthorizePaymentActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\AuthorizePaymentActivity.designer.cs">
+      <DependentUpon>AuthorizePaymentActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ChargePaymentActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ChargePaymentActivity.Designer.cs">
+      <DependentUpon>ChargePaymentActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\CheckForPaymentsActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\CheckForPaymentsActivity.Designer.cs">
+      <DependentUpon>CheckForPaymentsActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ProductAvailabilityActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ProductAvailabilityActivity.Designer.cs">
+      <DependentUpon>ProductAvailabilityActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\RefundOrderActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\RefundOrderActivity.Designer.cs">
+      <DependentUpon>RefundOrderActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ReturnInventoryActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ReturnInventoryActivity.Designer.cs">
+      <DependentUpon>ReturnInventoryActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SaveOrderActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SaveOrderActivity.Designer.cs">
+      <DependentUpon>SaveOrderActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SendEmailActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SendEmailActivity.Designer.cs">
+      <DependentUpon>SendEmailActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SetOrderStatusActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\SetOrderStatusActivity.Designer.cs">
+      <DependentUpon>SetOrderStatusActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ValidateAddressActivity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\Activities\ValidateAddressActivity.Designer.cs">
+      <DependentUpon>ValidateAddressActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeBased\DefaultPipeline.cs" />
+    <Compile Include="WindowsWorkflow\CancelOrderWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\CancelOrderWorkflow.Designer.cs">
+      <DependentUpon>CancelOrderWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\ChargeWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\ChargeWorkflow.Designer.cs">
+      <DependentUpon>ChargeWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\SubmitOrderWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\SubmitOrderWorkflow.Designer.cs">
+      <DependentUpon>SubmitOrderWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPipelineEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\ShipOrderWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowsWorkflow\ShipOrderWorkflow.Designer.cs">
+      <DependentUpon>ShipOrderWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsWorkflow\WindowsWorkflowPipeline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web.config" />
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WindowsWorkflow\CancelOrderWorkflow.rules">
+      <DependentUpon>CancelOrderWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commerce.MVC.Data\Commerce.Data.csproj">
+      <Project>{E084BFA0-121F-404B-8C8A-BAB98BB6A119}</Project>
+      <Name>Commerce.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commerce.MVC.Services\Commerce.Services.csproj">
+      <Project>{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}</Project>
+      <Name>Commerce.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Windows Workflow Foundation\v3.5\Workflow.Targets" />
+</Project>

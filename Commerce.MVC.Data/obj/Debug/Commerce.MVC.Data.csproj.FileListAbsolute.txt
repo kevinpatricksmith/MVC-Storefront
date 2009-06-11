@@ -1,0 +1,14 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\obj\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Data\obj\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\obj\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Data\obj\Debug\Commerce.MVC.Data.pdb

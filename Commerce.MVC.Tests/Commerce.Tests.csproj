@@ -1,0 +1,161 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8939B113-B4EA-4763-A3BD-23FFB6E4E021}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Commerce.Tests</RootNamespace>
+    <AssemblyName>Commerce.Tests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Commerce.MVC.Dependencies\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=2.0.2991.26580, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Commerce.MVC.Dependencies\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\System.Web.Routing.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.WorkflowServices">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressTests.cs" />
+    <Compile Include="AuthenticationTests.cs" />
+    <Compile Include="AuthorizationTests.cs" />
+    <Compile Include="Controllers\CatalogControllerTests.cs" />
+    <Compile Include="CatalogTests.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\OrderControllerTests.cs" />
+    <Compile Include="CouponTests.cs" />
+    <Compile Include="Helpers\MVCMockHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InventoryTests.cs" />
+    <Compile Include="LoggerTests.cs" />
+    <Compile Include="MailerTests.cs" />
+    <Compile Include="OrderTests.cs" />
+    <Compile Include="PersonalizationTests.cs" />
+    <Compile Include="PipelineTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShippingTests.cs" />
+    <Compile Include="TaxTests.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestBase.cs" />
+    <Compile Include="TestRepositories\TestIncentiveRepository.cs" />
+    <Compile Include="TestRepositories\TestLogger.cs" />
+    <Compile Include="TestRepositories\TestMailerService.cs" />
+    <Compile Include="TestRepositories\TestAddressValidator.cs" />
+    <Compile Include="TestRepositories\TestAuthenticationService.cs" />
+    <Compile Include="TestRepositories\TestAuthorizationService.cs" />
+    <Compile Include="TestRepositories\TestCatalogRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestRepositories\TestInventoryRepository.cs" />
+    <Compile Include="TestRepositories\TestMailerRepository.cs" />
+    <Compile Include="TestRepositories\TestOrderRepository.cs" />
+    <Compile Include="TestRepositories\TestPersonalizationRepository.cs" />
+    <Compile Include="TestRepositories\TestShippingRepository.cs" />
+    <Compile Include="TestRepositories\TestTaxRepository.cs" />
+    <Compile Include="TestRepositories\ThrowPaymentService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commerce.MVC.Data\Commerce.Data.csproj">
+      <Project>{E084BFA0-121F-404B-8C8A-BAB98BB6A119}</Project>
+      <Name>Commerce.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commerce.MVC.Pipelines\Commerce.Pipelines.csproj">
+      <Project>{31886C95-D019-49C6-8B0E-B1C49055F456}</Project>
+      <Name>Commerce.Pipelines</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commerce.MVC.Services\Commerce.Services.csproj">
+      <Project>{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}</Project>
+      <Name>Commerce.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commerce.Web\Commerce.MVC.Web.csproj">
+      <Project>{B99EC98A-1F09-4245-B00D-5AF985190AA9}</Project>
+      <Name>Commerce.MVC.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

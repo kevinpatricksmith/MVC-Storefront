@@ -1,0 +1,32 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Services\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll.config
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Services\obj\Debug\Commerce.MVC.Services.pdb

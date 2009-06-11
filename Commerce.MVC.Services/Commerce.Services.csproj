@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ED9A879-6538-4B7F-B89B-D42CEF9382E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Commerce.Services</RootNamespace>
+    <AssemblyName>Commerce.Services</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetOpenId, Version=2.2.1.8170, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\DotNetOpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.IdentityModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressValidation\NullAddressValidationService.cs" />
+    <Compile Include="AuthenticationServices\ActiveDirectoryAuthenticationService.cs" />
+    <Compile Include="AuthenticationServices\AspNetAuthenticationService.cs" />
+    <Compile Include="AuthenticationServices\CardSpaceAuthenticationService.cs" />
+    <Compile Include="AuthenticationServices\OpenIDAuthenticationService.cs" />
+    <Compile Include="AuthorizationServices\AspNetAuthorizationService.cs" />
+    <Compile Include="AddressValidation\IAddressValidationService.cs" />
+    <Compile Include="AuthenticationServices\IAuthenticationService.cs" />
+    <Compile Include="AuthorizationServices\IAuthorizationService.cs" />
+    <Compile Include="Catalog\ICatalogService.cs" />
+    <Compile Include="Coupons\IncentiveService.cs" />
+    <Compile Include="Coupons\IIncentiveService.cs" />
+    <Compile Include="Email\IMailerService.cs" />
+    <Compile Include="Email\MailerService.cs" />
+    <Compile Include="Email\NullMailerService.cs" />
+    <Compile Include="Inventory\IInventoryService.cs" />
+    <Compile Include="Inventory\InventoryService.cs" />
+    <Compile Include="Logging\EventLogLogger.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\LogUtility.cs" />
+    <Compile Include="Logging\NLogLogger.cs" />
+    <Compile Include="Orders\IOrderService.cs" />
+    <Compile Include="PaymentGateways\FakePaymentService.cs" />
+    <Compile Include="PaymentGateways\IPaymentService.cs" />
+    <Compile Include="Personalization\IPersonalizationService.cs" />
+    <Compile Include="SalesTax\ISalesTaxService.cs" />
+    <Compile Include="SalesTax\RegionalSalesTaxService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shipping\IShippingService.cs" />
+    <Compile Include="Orders\OrderService.cs" />
+    <Compile Include="Personalization\PersonalizationService.cs" />
+    <Compile Include="Catalog\CatalogService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="AddressValidation\USAddressValidationService.cs" />
+    <Compile Include="Shipping\SimpleShippingService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commerce.MVC.Data\Commerce.Data.csproj">
+      <Project>{E084BFA0-121F-404B-8C8A-BAB98BB6A119}</Project>
+      <Name>Commerce.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

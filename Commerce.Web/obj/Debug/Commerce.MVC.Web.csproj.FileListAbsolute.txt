@@ -1,0 +1,46 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Abstractions.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\System.Web.Routing.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\bin\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\Commerce.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.Web\obj\Debug\Commerce.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\obj\Debug\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\obj\Debug\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\StructureMap.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\bin\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\obj\Debug\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.Web\obj\Debug\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Pipelines.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Pipelines.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Commerce.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.Web\bin\Microsoft.Web.Mvc.dll

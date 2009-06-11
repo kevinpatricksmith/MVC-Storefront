@@ -1,0 +1,59 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Moq.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\System.Web.Abstractions.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\system.Web.Routing.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC\Commerce.MVC.Tests\bin\Debug\Commerce.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll.config
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Moq.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll.config
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Web.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Microsoft.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Moq.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\System.Web.Mvc.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Web.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Tests\obj\Debug\Commerce.MVC.Tests.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Tests\bin\Debug\Commerce.MVC.Services.pdb

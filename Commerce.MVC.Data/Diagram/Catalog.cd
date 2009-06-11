@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Commerce.Data.Category">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAgAAEgAAAAAQAAAAAAJAAAAAAgAAQAAQ=</HashCode>
+      <FileName>Model\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Data.Product">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAgAAEAIAQgggAAEwICAAAQAAACAAJAAAAAAIgCAIAg=</HashCode>
+      <FileName>Model\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Data.ProductReview">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAgAAAgAABAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ProductReview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Data.Image">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Data.ProductImage">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Commerce.Data.Image" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="4.19" />
+        <Point X="5" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Commerce.Data.CategoryImage">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,28 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B99EC98A-1F09-4245-B00D-5AF985190AA9/d:App/d:Controllers/f:CatalogController.cs" caret="467" scrollPosition="0|11" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

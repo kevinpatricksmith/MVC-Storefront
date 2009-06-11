@@ -1,0 +1,24 @@
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\obj\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\obj\Debug\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront\Commerce.MVC.Pipelines\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Pipelines.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Data.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Services.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\StructureMap.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\DotNetOpenId.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\NLog.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Data.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\bin\Debug\Commerce.MVC.Services.pdb
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\obj\Debug\ResolveAssemblyReference.cache
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\obj\Debug\Commerce.MVC.Pipelines.dll
+D:\@Microsoft\MVC Storefront - Copy\Commerce.MVC.Pipelines\obj\Debug\Commerce.MVC.Pipelines.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.MVC.Pipelines", "Commerce.MVC.Pipelines.csproj", "{31886C95-D019-49C6-8B0E-B1C49055F456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31886C95-D019-49C6-8B0E-B1C49055F456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
